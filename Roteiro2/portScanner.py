@@ -22,7 +22,8 @@ try:
                 print("Serviço que está rodando na porta {0}: {1}".format(port, service))
                 openPorts.append(port)
             else:
-                print("A porta {0} está  fechada".format(port))
+                # print("A porta {0} está  fechada".format(port))
+                pass
             sock.close()
     except: 
         print(socket.error)
